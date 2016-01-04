@@ -15,8 +15,10 @@ colorscheme jellybeans "需要把http://www.vim.org/scripts/script.php?script_id
 " if has('gui_running')
 "    set guifont=Monaco\ 12
 " endif
-
+let mapleader=","
+nmap <leader>n :NERDTreeToggle<CR>
 set tabstop=2
+set nowrap
 set shiftwidth=2
 set hlsearch "设置搜索所有匹配高亮
 "set dictionary+=$HOME/.mydict
